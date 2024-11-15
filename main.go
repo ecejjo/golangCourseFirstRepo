@@ -1,9 +1,10 @@
 package main
 
 import "fmt"
+import "github.com/ecejjo/golangCourseFirstRepo/hello"
 
 func main() {
 
-	fmt.Println("Hola mundo")
+	hello.Hello()
 
 }
